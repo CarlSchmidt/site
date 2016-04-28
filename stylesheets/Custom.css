@@ -168,6 +168,11 @@ section {
   padding-bottom:50px;
 }
 
+img {
+  float:center;
+  max-width:100%;
+}
+
 small {
   font-size:11px;
 }
