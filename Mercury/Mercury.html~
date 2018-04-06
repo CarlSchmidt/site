@@ -83,16 +83,13 @@
 <small>Download uncompressed AVI <a href="https://archive.org/download/SloshColumnDensity/Slosh_Column_Density.avi"> here</a></small>
 </div>
 <br>
-<p>In April 2016, we measured asymmetries in Mercury's atmospheric tails with the 3.5 meter telescope at Apache Point Observatory in New Mexico. This includes the first detection of a potassium tail, which shows a more broad distribution than sodium, but is also concentrated in the northern lobe due to the magnetosphere's influence. I'm hoping that these data will better characterize this effect. North-south effects from the offset magnetosphere are hard to pull out of the MESSENGER data set because of its orbital geometry. However, the spacecraft's data set does show some hints of dawn-dusk asymmetry and an analoguous drift. This may be because the atmosphere is condensing onto the planet's cold nightside and then puffing up again when the surface heats at sunrise, something we'll try to show with the Monte Carlo models. <a href="https://archive.org/download/RIPSMercuryFirstLight/RIPS_Mercury_First_Light.mp4"> DPS ePoster describing these data and the potassium tail detections</a></p>   
-
+<p>In April 2016, we measured asymmetries in Mercury's atmospheric tails with the 3.5 meter telescope at Apache Point Observatory in New Mexico. This includes the first detection of a potassium tail, which shows a more broad distribution than sodium, but is also concentrated in the northern lobe due to the magnetosphere's influence. I'm hoping that these data will better characterize this effect. North-south effects from the offset magnetosphere are hard to pull out of the MESSENGER data set because of its orbital geometry. However, the spacecraft's data set does show some hints of dawn-dusk asymmetry and an analoguous drift. This may be because the atmosphere is condensing onto the planet's cold nightside and then puffing up again when the surface heats at sunrise, something we'll try to show with the Monte Carlo models. <a href="https://dps2017-aas.ipostersessions.com/default.aspx?s=1E-D9-DF-33-AE-10-48-69-02-D9-64-4C-2F-CC-5A-5B"> DPS ePoster describing potassium tail detections</a></p>   
 <p>
-On May 9, 2016, Some colleagues and I traveled to the National Solar Observatory just down the road from Apache Point. The IBIS and HSG instruments on the Dunn Solar Telescope measured absorption in Mercury's atmosphere as it transited between Earth and the Sun. The transit data tells us how lopsided the atmosphere is in each direction, north-south and dawn-dusk. The jet stream was right overhead so our seeing wasn't very good, for the tip-tilt correction. On the other hand the adaptive optics data from FISS at Big Bear Solar Observatory are fantastic. We're writing up these results now, so I won't preview them, except to say the atmosphere's similar to Helmold Schleicher's 2004 transit measurement, but the new data have higher spatial, temporal and spectral resolution. With luck and careful data reduction, we may even see some variations in the atmosphere during our 5 hour observation window.</p>
-
-
+On May 9, 2016, colleagues and I traveled to the National Solar Observatory just down the road from Apache Point. The IBIS and HSG instruments on the Dunn Solar Telescope measured absorption in Mercury's atmosphere as it transited between Earth and the Sun. The transit data tells us how lopsided the atmosphere is in each direction, north-south and dawn-dusk. The jet stream was right overhead so our seeing wasn't very good, for the tip-tilt correction. On the other hand the adaptive optics data from FISS at Big Bear Solar Observatory are fantastic. We're writing up these results now, so I won't preview them, except to say the atmosphere's similar to Helmold Schleicher's 2004 transit measurement, but the new data have higher spatial, temporal and spectral resolution. With luck and careful data reduction, we may even see some variations in the atmosphere during our 5 hour observation window.</p>
 <div align="center">
 <div id="playb" style="width:960px; margin:auto;"> </div>
   <script>
-    jwplayer("playb").setup({
+    jwplayer("playc").setup({
         "playlist": [
             { duration:6, 
               title:"Transit Movie", 
@@ -109,14 +106,11 @@ On May 9, 2016, Some colleagues and I traveled to the National Solar Observatory
 <small>Download uncompressed AVI <a href="https://archive.org/download/TransitAtHermanD2/Transit_at_Herman_D2.mp4"> here</a></small>
 </div>
 <br>
-
-
 <p>Most recently, our research group has been comissioning the Rapid Imaging Planetary Spectrograph. The instrument takes very fast data at video rates. The idea is that you can then throw away the blurry ones and keep the ~5% of images that have crisp structure when you were lucky enough to "freeze" out atmospheric seeing. The first light data below uses 1/20th of a second expsoure times. The spectrum shows Mercury's sodium emission shifted slightly from the solar absorption. We're excited about data like this one our first try and have lots of good follow  up planned with this instrument</p>
-
 <div align="center">
 <div id="playb" style="width:960px; margin:auto;"> </div>
   <script>
-    jwplayer("playb").setup({
+    jwplayer("playd").setup({
         "playlist": [
             { duration:6, 
               title:"RIPS First Light", 
@@ -126,8 +120,8 @@ On May 9, 2016, Some colleagues and I traveled to the National Solar Observatory
         ],
         "startparam":"start",
         "repeat":"list",
-        "width":550,
-        "height":450
+        "width":600,
+        "height":600
     });
   </script>
 <small>Download uncompressed AVI <a href="https://archive.org/download/RIPSMercuryFirstLight/RIPS_Mercury_First_Light.mp4"> here</a></small>
