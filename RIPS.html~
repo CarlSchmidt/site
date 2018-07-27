@@ -3,5 +3,8 @@
 <body>      
 <br>
 The Rapid Imaging Planetary Spectrograph (RIPS) is designed around the concept of "lucky imaging" but really functions as a lucky spectrograph. To obtain a good signal to noise spectrum at a resolving power of 100,000 requires both a very bright target object and a high throughput optical path
+
+RIPS is currently remotely operated at the AEOS 3.7 telescope in Haleakala, and will return to the Perkins 1.8m telescope in 2019. The User's manual is <a href="RIPS Manual.pdf">HERE</a>
+
 </body>
 </html>
