@@ -27,7 +27,7 @@ RIPS is a new instrument constructed in collaboration with Jeffrey Baumgardner a
 Obtaining a good signal to noise spectrum at a high resolving power requires both a very bright target object and a high throughput optical path. However, true lucky imaging has a limit due to the characteristic size scales of atmospheric turbulence. This is typically half a meter or less in the visible wavelengths, making "lucky" techniques mostly a small telescope trick favored by the best amateur astronomers. However, there are lots of caveats and things like wind and tracking errors still afford some benefits for high cadence imaging techniques.  <a href="https://arxiv.org/pdf/1404.5907.pdf">Tim Staley's PhD thesis</a> makes a nice read for those interested. Mercury is right in the sweet spot for lucky imaging techniques: the wind and seeing are generally awful and it's really really bright. It's a prime candidate for lucky spectroscopy, and as far as we know RIPS is the first application of this niche technique.  
 </p>
 <p>
- While true lucky spectra on Mercury have had good results, less bright objects must use RIPS as a conventional long slit spectrograph. Io's disk is too faint for the required ~20fps frame rate to beat seeing. 1000x fainter emissions in the lunar exosphere require integrations of 10s of minutes. A typical raw  scan across Mercury's disk looks like (gibbous phase in this case):
+ While true lucky spectra on Mercury have had good results, less bright objects must use RIPS as a conventional long slit spectrograph. Io's disk is too faint for the required ~20fps frame rate to beat seeing. 1000x fainter emissions in the lunar exosphere require integrations of 10s of minutes. A raw scan across Mercury's disk (gibbous phase in this case) looks like this:
 <div align="center">
 <div id="playd" style="width:960px; margin:auto;"> </div>
   <script>
@@ -48,7 +48,7 @@ Obtaining a good signal to noise spectrum at a high resolving power requires bot
 </div>
 <br>
 <br>
-Using a spectral fit to seperate out the atmospheric emission from the sunlight scattered of the disk, a 1-dimensional emission profile is extracted. We can use each 1-D profile to "paint in" an image of sodium as the slit is scanned across the disk:
+A 1-dimensional emission profile is extracted using spectral fitting to seperate out the atmospheric emission (the two bright lines) from the sunlight scattered of the disk (everything else). We can then use each 1-D profile to "paint in" an image of sodium as the slit is scanned across the disk:
 <br>
 <br>
 <p align="center"><img src="/Mercury/Mercury Na + disk.png" width="480" height="480" alt="Coronagraph" align="middle"></p>
