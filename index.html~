@@ -21,23 +21,24 @@
         <p><b>Planetary Science</b></p>
         <br><img src="images/Loire_selfie.png"></br>
         <br>schmidtc @ bu.edu  
-        <br><a href="CV/CV_2017.pdf">Curriculum Vitae</a>
+        <br><a href="CV/CV_2019.pdf">Curriculum Vitae</a>
         <br><a href="Publications.html">Publications</a>
         <br><a href="CV/thesis_schmidt.pdf">PhD Thesis</a>
+        <br><a href="Talks.html">Recent Talks</a>
       </header>
       <section>
         <h3>
 <a id="About" class="anchor" href="#About" aria-hidden="true"><span class="octicon octicon-link"></span></a>About</h3>
 
 <p>I'm a research scientist at the Boston University <a href="http://www.bu.edu/csp/" class="CSP">Center for Space Physics</a>
-with a concentration on planetary atmospheres. Prior, I was a post-doc at <a href="http://www.latmos.ipsl.fr/" class="LATMOS">CNRS/LATMOS</a>, where I maintain a joint appointment, and a post-doc at 
-<a href="http://www.virginia.edu/ms/research/rej/index.html/" class="UVA">University of Virginia</a>. This site contains scattered bits information about my various projects. </p>
+studying tenuous planetary atmospheres, also known as exospheres. Prior, I was a post-doc at <a href="http://www.latmos.ipsl.fr/" class="LATMOS">CNRS/LATMOS</a>, where I maintain a joint appointment, and a post-doc at 
+<a href="http://www.virginia.edu/ms/research/rej/index.html/" class="UVA">University of Virginia</a>. This site contains scattered bits of information about my various projects. </p>
 
 
 <h3>
 <a id="Instruments" class="anchor" href="#Instruments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instruments</h3>
 
-<p>Bodies below are being actively studied using the Rapid Imaging Planetary Spectroagraph (RIPS), a new instrument built here at Boston University. It's currently installed on the AEOS 3.7m telescope at Haleakala. <a href="RIPS.html">More about RIPS</a> </p>
+<p>Atmospheres of the bodies below are being actively studied using the Rapid Imaging Planetary Spectroagraph (RIPS), a new instrument built here at Boston University. It's currently installed on the AEOS 3.7m telescope at Haleakala. <a href="RIPS.html">More about RIPS</a> </p>
 
 <h3>
 <a id="Mercury" class="anchor" href="#Mercury" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mercury</h3>
@@ -52,8 +53,7 @@ with a concentration on planetary atmospheres. Prior, I was a post-doc at <a hre
 <h3>
 <a id="Io" class="anchor" href="#Io" aria-hidden="true"><span class="octicon octicon-link"></span></a>Io</h3>
 
-<p>Jupiter's volcanic moon Io is a very interesting object. I've use the infrared methods to study volcanoes on it's surface, small telescopes at McDonald Observatory to observe the sodium atmospheric escape, and a spectrograph at Apache Point Observatory to track a wobbly doughnut orbiting Jupiter called the Io Plasma Torus. I'm presently analyzing coordinated datasets from <a href="RIPS.html">RIPS</a>, <a href="http://www.stsci.edu/cgi-bin/get-proposal-info?id=15147&observatory=HST">Hubble's Cosmic Orgins Spectrograph</a> and Apache Point, as well as organizing various telescope efforts for <a href="https://www.missionjuno.swri.edu/planned-observations">Juno support</a> of Io studies.
-</p>
+<p>Jupiter's volcanic moon Io is certainly one of the most interesting object's in our Solar System. I use infrared wavelengths to study volcanoes on its surface, various telescopes to observe its atmospheric changes and escape, and a spectrograph at Apache Point Observatory to track a wobbly doughnut orbiting Jupiter called the Io Plasma Torus. Current work revolves around coordinated datasets using <a href="RIPS.html">RIPS</a>, <a href="http://www.stsci.edu/cgi-bin/get-proposal-info?id=15147&observatory=HST">Hubble's Cosmic Orgins Spectrograph</a> and Apache Point. I also lead some ground-based telescope efforts for <a href="https://www.missionjuno.swri.edu/planned-observations">Juno mission support</a> related to Io studies. </p>
 
 <h3>
 <a id="Europa" class="anchor" href="#Europa" aria-hidden="true"><span class="octicon octicon-link"></span></a>Europa</h3>
@@ -63,10 +63,10 @@ with a concentration on planetary atmospheres. Prior, I was a post-doc at <a hre
 <h3>
 <a id="Moon" class="anchor" href="#Earth's-Moon" aria-hidden="true"><span class="octicon octicon-link"></span></a>Moon</h3>
 
-<p>Earth's moon also has a sodium atmosphere quite similar to Mercury's. During the <a href="http://lcross.arc.nasa.gov/impact.htm">LCROSS</a> impact, colleagues at McDonald Observatory made spectral observations of a plume of sodium extending some 200 km above the impact site. A simulation of these data is in the works, for comparison with Mercury where no sodium signature of the <a href="http://www.nasa.gov/mission_pages/messenger/main/">MESSENGER</a> impact was observed. <a href="RIPS.html">RIPS</a> also took some really interesting data about the lunar atmosphere during its comissioning at Lowell Observatory last March and this model is going to be critial in interpreting those results. </p>
+<p>Earth's moon also has a sodium atmosphere similar to Mercury's. During the <a href="http://lcross.arc.nasa.gov/impact.htm">LCROSS</a> impact, colleagues at McDonald Observatory recorded a time series of a plume of sodium extending some 200 km above the impact site. A simulation of these data is in the works, for comparison with Mercury where no sodium signature of the <a href="http://www.nasa.gov/mission_pages/messenger/main/">MESSENGER</a> impact was observed. <a href="RIPS.html">RIPS</a> also took some really interesting data of the lunar atmosphere during its comissioning at Lowell Observatory last March and this model is going to be critial in interpreting those results. </p>
       </section>
       <footer>
-        <p>&copy; Carl Schmidt 2018</p>
+        <p>&copy; Carl Schmidt 2019</p>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
