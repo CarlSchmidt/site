@@ -30,7 +30,7 @@
         <h3>
 <a id="About" class="anchor" href="#About" aria-hidden="true"><span class="octicon octicon-link"></span></a>About</h3>
 
-<p>I'm a research scientist at the Boston University <a href="http://www.bu.edu/csp/" class="CSP">Center for Space Physics</a>
+<p>Hi there! This page is for Carl Schmidt the planetary scientist, not the <a href="https://pa.msu.edu/profile/schmidt/">physicist</a>, or the <a href="https://en.wikipedia.org/wiki/Carl_Schmidt_(chemist)">chemist</a>, and certainly not the <a href="https://en.wikipedia.org/wiki/Carl_Schmitt">political theorist</a>. I'm a research scientist at the Boston University <a href="http://www.bu.edu/csp/" class="CSP">Center for Space Physics</a>
 studying tenuous planetary atmospheres, also known as exospheres. Prior, I was a post-doc at <a href="http://www.latmos.ipsl.fr/" class="LATMOS">CNRS/LATMOS</a>, where I maintain a joint appointment, and a post-doc at 
 <a href="http://www.virginia.edu/ms/research/rej/index.html/" class="UVA">University of Virginia</a>. This site contains scattered bits of information about my various projects. </p>
 
@@ -38,35 +38,35 @@ studying tenuous planetary atmospheres, also known as exospheres. Prior, I was a
 <h3>
 <a id="Instruments" class="anchor" href="#Instruments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instruments</h3>
 
-<p>Atmospheres of the bodies below are now being studied using a new instrument built here at Boston University called the Rapid Imaging Planetary Spectroagraph (RIPS). RIPS is a visiting instrument, splitting its time between the AEOS 3.7m at Haleakala and the Perkins 1.8m telescope at Lowell Observatory. <a href="RIPS.html">More about RIPS</a> </p>
+<p>I've been using a new instrument was built here at Boston University called the Rapid Imaging Planetary Spectrograph (RIPS). RIPS is a visiting instrument, splitting most of its time between the AEOS 3.7m at Haleakala and the Perkins 1.8m telescope at Lowell Observatory. RIPS is currently located at the Dunn Solar Telescope, where we hope to develop a program for daytime Mercury observations to support <a href="https://sci.esa.int/web/bepicolombo">BepiColombo</a>. Travel bans surrounding COVID-19 have placed all RIPS observations on hold, but I manage to keep busy analyzing the data already in-hand. <a href="RIPS.html"><b>Read more about RIPS...</b></a></p>
 
 <h3>
 <a id="Mercury" class="anchor" href="#Mercury" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mercury</h3>
 
-<p>Mercury's atmospheric content is comparable to the amount of air in a small building, spread over the whole planet. Still, its bright sodium and potassium D emission lines are easily observable by small ground-based telescopes. Interpreting such observations and connecting them to the extensive <a href="http://www.nasa.gov/mission_pages/messenger/main/">MESSENGER</a> dataset is a job for numerical models. Several of my projects involve observing Mercury's thin atmosphere and developing simulations of various ground- and space-based measurements. <a href="Mercury/Mercury.html">More on Mercury</a> </p>
-
-<h3>
-<a id="Comets" class="anchor" href="#Comets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Comets</h3>
-
-<p>Cometary atmospheres are rich in complexity. Using an integral field spectrograph, I've studied the composition, structure, and dynamics of Comet C/2012 S1 (ISON), which, well. . . fell into the Sun. Then I worked with the STEREO spacecraft to study striae formation in Comet C/2011 L4 (Pan-STARRS). I then chased 46P/Wirtanen when it passed near Earth in December 2018, but it was fainter than expected. Now I'm impatient with faint comets and awaiting on another bright one to fly in from the Oort cloud.</p>
+<p>Mercury's atmospheric content is comparable to the amount of air in a large building, spread over a whole planet. Still, its bright sodium and potassium D emission lines are easily observable by small ground-based telescopes. Interpreting such observations and connecting them to the extensive <a href="http://www.nasa.gov/mission_pages/messenger/main/">MESSENGER</a> dataset is a job for numerical models. I'm involved in several projects observing Mercury's thin atmosphere and simulating various ground- and space-based measurements. <a href="Mercury/Mercury.html"><b>Read more about Mercury...</b></a> </p>
 
 <h3>
 <a id="Io" class="anchor" href="#Io" aria-hidden="true"><span class="octicon octicon-link"></span></a>Io</h3>
 
-<p>Jupiter's volcanic moon Io is certainly one of the most interesting object's in our Solar System. I use various telescopes to observe its atmospheric changes and escape, and a spectrograph at Apache Point Observatory to track a wobbly doughnut orbiting Jupiter called the Io Plasma Torus. Recent work revolves around coordinated datasets using <a href="RIPS.html">RIPS</a>, <a href="http://www.stsci.edu/cgi-bin/get-proposal-info?id=15147&observatory=HST">Hubble's Cosmic Orgins Spectrograph</a> and Apache Point. I also lead some ground-based telescope efforts for <a href="https://www.missionjuno.swri.edu/planned-observations">Juno mission support</a> related to Io studies. </p>
+<p>Jupiter's volcanic moon Io is my favorite object in our Solar System. It's actively changing before our eyes. Io's atmosphere essentially collapses every 42 hours when the moon enters Jupiter's shadow, which allows for some nice observational experiments. Atmospheric escape can take the form of fast neutral jets, and any ionized gases form a wobbly doughnut orbiting Jupiter called the Io Plasma Torus. I've observed Io using <a href="http://www.stsci.edu/cgi-bin/get-proposal-info?id=15147&observatory=HST">Hubble's Cosmic Orgins Spectrograph</a> and from <a href="https://www.sofia.usra.edu/">SOFIA</a>, a telescope aboard a Boeing 747. I also lead some ground-based telescope campaigns for <a href="https://www.missionjuno.swri.edu/planned-observations">Juno mission support</a>.</p>
+
+<h3>
+<a id="Comets" class="anchor" href="#Comets" aria-hidden="true"><span class="octicon octicon-link"></span></a>Comets</h3>
+
+<p>Cometary atmospheres are rich in complexity. Using an integral field spectrograph, I've studied the composition, structure, and dynamics of Comet C/2012 S1 (ISON), which, well. . . fell into the Sun. <i>Puff.</i> Then I worked a bit with STEREO data to study striae formation in Comet C/2011 L4 (Pan-STARRS). Now C/2020 F3 (NEOWISE) has survived its July 2020 periapse, and is nice and bright. I'm collaborating with PSI to observe and model its coma. <a href="https://psi.edu/news/neowisesodiumtail"><b>Here's how it looks.</b></a></p>
 
 <h3>
 <a id="Europa" class="anchor" href="#Europa" aria-hidden="true"><span class="octicon octicon-link"></span></a>Europa</h3>
 
-<p>Io can potenitally transfer some of its massively extended atmosphere to an adjacent moon, Europa. I'm currently working on a better understanding of the fraction of the sodium in Europa's atmosphere that is transferred from Io, rather than of native origins. Addressing this question ultimately helps solve another: what is the salinity of Europa's subsurface ocean?</p>
+<p> Io's plasma torus collides with an adjacent moon, Europa. When the geometry allows, energetic neutral atoms escaping Io, aslo hit Europa painting its surface. I'm working on a better understanding of just how material is transfered from one moon to the other. I use HST observations and plasma torus measurements to estimate how much oxygen, sulfur and chlorine is transfered. Also, smaller ground-based telescopes can determine fraction of the sodium in Europa's atmosphere that is transferred from Io, rather than of native origins. Addressing this question ultimately helps resolve another: what's the salinity of Europa's subsurface ocean?</p>
 
 <h3>
 <a id="Moon" class="anchor" href="#Earth's-Moon" aria-hidden="true"><span class="octicon octicon-link"></span></a>Moon</h3>
 
-<p>Earth's moon has a sodium atmosphere similar to Mercury's. During the <a href="http://lcross.arc.nasa.gov/impact.htm">LCROSS</a> impact, colleagues at McDonald Observatory recorded a time series of a plume of sodium extending some 200 km above the impact site. <a href="RIPS.html">RIPS</a> also took some interesting data of the lunar atmosphere during its comissioning at Lowell Observatory that our research group is modelling now. The Moon's escaping atmosphere has a cool interaction with the Earth around New Moon--that's a long story (pun intended) so here's <a href="Moon/Moon.html">more about the Moon's atmosphere</a></p>
+<p>Earth's moon has a sodium atmosphere similar to Mercury's. During the <a href="http://lcross.arc.nasa.gov/impact.htm">LCROSS</a> impact, colleagues at McDonald Observatory recorded a time series of a plume of sodium extending some 200 km above the impact site. <a href="RIPS.html">RIPS</a> also took some interesting data of the lunar atmosphere during its comissioning at Lowell Observatory that our research group is modelling now. The Moon's escaping atmosphere has a <a href="Moon/Moon.html">cool interaction with the Earth</a> near its New Moon phase.</p>
       </section>
       <footer>
-        <p>&copy; Carl Schmidt 2019</p>
+        <p>&copy; Carl Schmidt 2020</p>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
