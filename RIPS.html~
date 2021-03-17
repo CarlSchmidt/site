@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
- <script src="https://archive.org/jw/6.8/jwplayer.js"></script>
- <script>jwplayer.key="sZbikYlI/xtW0U/3Tw1DOdjC1EahhtUCJF5KggVdqDY=";</script>
+<script src="https://archive.org/jw/8/jwplayer.js"></script>
  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -16,25 +15,73 @@
 <body>
  <div class="wrapper">
   <section>
-  <h2>Rapid Imaging Planetary Spectrograph</h2>
+  <h2><p align="center">Rapid Imaging Planetary Spectrograph</p></h2>
   <br>
-  <h2><a href="RIPS Manual.pdf">User's Manual</a></h2>
+  <h2>
+  <a href="RIPS Manual.pdf">link to the -> User's Manual</a></h2>
   <br>
   <p>
-RIPS is a new instrument constructed in collaboration with Jeffrey Baumgardner and Luke Moore at the Center for Space Physics. The instrument was designed around the concept of <i>lucky imaging</i>--using high cadence video rate EMCCD imaging to freeze out atmospheric seeing by luck, when the atmospheric turblence happens to be still just for an instant. However, RIPS functions as a "lucky spectrograph," by recording a spectral channel on the EMCCD detector concurrent with the imaging channel. RIPS uses an echelle grating to give high-dispersion 1.25 km/s/pixel and R~97,000 spectra, but uses internal sorting filters to isolate single orders that contain emissions of interest. It further employs an optional pre-filter of ~45A bandpass to reject off-band light before it ever enters the instrument. 
+RIPS is a specialized instrument for planetary spectroscopy constructed in collaboration with Jeffrey Baumgardner and Luke Moore at the Center for Space Physics. The instrument was designed around the concept of <i>lucky imaging</i>--using high cadence imaging to mitigate atmospheric seeing by leveraging the fact that thanks to sheer luck, Earth's atmospheric turblence above the telescope is occassionally still, just for a split second. RIPS takes this technique a step beyond in that it functions as a "lucky spectrograph." Each frame conatins a spectral channel on the EMCCD detector concurrent with the imaging channel. RIPS uses an echelle grating for high-dispersion of 1.25 km/s/pixel, useful for planetary Doppler shifts. A motorized slit jaw allows long slit spectroscopy at resolving powers up to R~97,000. The sacrifice needed to acheive this is a narrow spectral bandpass, RIPS uses internal sorting filters to isolate single echelle orders containing an emission line or multiplet of interest. It further employs an optional pre-filter of ~45A bandpass to reject off-band light before it ever enters the instrument. We think this is a powerful new technique in instrumentation for planetary science, but it's only useful for applications where the observer needs just a few nm of spectral information at a time to do their science. 
 </p>
 <p>
-Obtaining a good signal to noise spectrum at a high resolving power requires both a very bright target object and a high throughput optical path. However, true lucky imaging has a limit due to the characteristic size scales of atmospheric turbulence. This is typically half a meter or less in the visible wavelengths, making "lucky" techniques mostly a small telescope trick favored by the best amateur astronomers. However, there are lots of caveats and things like wind and tracking errors still afford some benefits for high cadence imaging techniques.  <a href="https://arxiv.org/pdf/1404.5907.pdf">Tim Staley's PhD thesis</a> makes a nice read for those interested. Mercury is right in the sweet spot for lucky imaging techniques: the wind and seeing are generally awful and it's really really bright. It's a prime candidate for lucky spectroscopy, and as far as we know RIPS is the first application of this niche technique.  
+Obtaining a good signal to noise spectrum at a high resolving power requires both a very bright target object and a high throughput optical path. However, true lucky imaging has a limit due to the characteristic size scales of atmospheric turbulence. This is typically half a meter or less in the visible wavelengths, making "lucky" techniques mostly a small telescope trick favored by the best amateur astronomers. However, there are lots of caveats and high cadence imaging on large aperture telescopes can still mitigate things like wind shake and tracking errors. <a href="https://arxiv.org/pdf/1404.5907.pdf">Tim Staley's PhD thesis</a> makes a nice read for those interested in details of what lucky imaging can and can't achieve. As astronomical targets go, Mercury is right in the sweet spot for lucky imaging: at high airmass the wind and seeing are generally awful and it's really really bright. Here's how bad Mercury looks through a telescope (it's that half moon looking thingy on bottom):
+
 </p>
+<div align="center">
+<div id="playd" style="width:556px; margin:auto;"> </div>
+  <script>
+    jwplayer("playd").setup({
+        "playlist": [
+            { duration:17.00, 
+              title:"RIPS Mercury First Light", 
+              image:"https://archive.org/download/RIPSMercuryFirstLight/RIPSMercuryFirstLight.thumbs/RIPS_Mercury_First_Light_000009.jpg", 
+              sources:[ {file:"https://archive.org/download/RIPSMercuryFirstLight/RIPS_Mercury_First_Light.mp4,type:"video/mp4"} 
+              ]
+            },
+        ],
+        "startparam":"start",
+        "repeat":"list",
+        "width":278,
+        "height":300
+    });
+  </script>
+</div>
 <p>
- While true lucky spectra on Mercury have had good results, less bright objects must use RIPS as a conventional long slit spectrograph. Io's disk is too faint for the required ~20fps frame rate to beat seeing. 1000x fainter emissions in the lunar exosphere require integrations of 10s of minutes. 
+ Frames in the above video are 1/10th of a second expsoure times. The apparent motion is so bad that it effectively scans the planet for you and at one time or another all portions of the planet will be sampled by the spectrograph slit. Notice that some frames are better than others. This gives a tractable problem: trash the crummy data, keep the best frames, co-align them to correct for the planet moving around, and them add them together into a single good picture. This is lucky imaging. We can get a crisper image of the planet this way than we could using traditional astronomy, where this would all average out into a blurry mess over a long duration exposure. Now, Mercury is too close to the Sun for space telescopes like Hubble to point safely. The only other way to mitigate astronomical seeing from Earth's turbulent atmosphere is with adaptive optics. Here's Mercury through an adaptive optics telescope (gibbous phase in this case):
 </p>
+<div align="center">
+<div id="playd" style="width:960px; margin:auto;"> </div>
+  <script>
+    jwplayer("playd").setup({
+        "playlist": [
+            { duration:25.00, 
+              title:"RIPS Mercury Scan Adaptive Optics", 
+              image:"https://archive.org/download/Mercury500KineticScanNa3ANDImagingNaOrder2/format=Thumbnail", 
+              sources:[ {file:"https://archive.org/download/Mercury500KineticScanNa3ANDImagingNaOrder2/Mercury%20-%20500%20kinetic%20scan%20-%20Na%203A%20%2B%20ND%20imaging%20-%20Na%20order%20%282%29.mp4",type:"video/mp4"} ]
+            },
+        ],
+        "startparam":"start",
+        "repeat":"list",
+        "width":480,
+        "height":480
+    });
+  </script>
+</div>
+<br>
+<br>
 <p>
-RIPS instrument is currently remotely operated at the AEOS 3.7 telescope in Haleakala, and will return to the Perkins 1.8m telescope in 2019. 
+Adaptive optics stabilizes the image of the planet, so in this case we need to scan the slit across the planet ourselves, Earth's turbulent atmosphere and dodgy pointing won't do that for us. Even with good adaptive optics, the images aren't great. The quality falters from crisp to blurry as the adaptive optics system tries to compensate for rapid changes along the column of atmosphere near the horizon. Again, rapid timing information is useful: keep the good images and toss the bad. Once we've isolated the highest quality images, we can use the spectral information in those good frames build an image of the atmosphere. A 1-dimensional emission profile is extracted using spectral fitting to seperate out the atmospheric emission (the two bright lines) from the sunlight scattered of the disk (everything else). We can then use each 1-D profile to "paint in" an image of sodium as the slit is scanned across the disk. Adaptive optics results on the left, lucking imaging results are on the right.   
+</p>
+<br>
+<br>
+<p align="center"><img src="Schmidt_2020_Fig_7.jpg" width="501" height="266" alt="AO vs Lucky Imaging" align="middle"></p>
+<br>
+<br>
+<p>
+RIPS showed that these high latitude spots vary night to night, presumably due to solar wind and interplanetary magnetic field conditions at Mercury. Mercury is a prime candidate for lucky spectroscopy, and as far as we know RIPS is the first application of this niche technique. Fainter objects must use RIPS as a conventional long slit spectrograph. Io's disk is too faint for the fast frame rate (~20fps) required to beat seeing. 1000x fainter emissions in the lunar exosphere require integrations of 10s of minutes. Comets and Europa are other good targets for long slit high resolution spectroscopy. The science goals at each of these targets varies. Often it's the really bright transitions of sodium and potassium that give us insight, but sometimes molecular features or oxygen aurorae can teach us about atmospheric chemistry and plasma interactions with atmosphereres. We've obtained some proof-of-concept RIPS data on these fainter objects that convince us it's worth investing time in larger observing campaigns, so we think there are diverse applications and a promising future for this new instrument. 
 </p>
 </div>
 <br>
-
 <br>
 </section>
 </br>
