@@ -33,19 +33,19 @@
         <h3>
 <a id="About" class="anchor" href="#About" aria-hidden="true"><span class="octicon octicon-link"></span></a>About</h3>
 
-<p>Hi there! I'm a research scientist at Boston University's <a href="http://www.bu.edu/csp/" class="CSP">Center for Space Physics</a>
+<p>Hi there! I'm a research assistant professor at Boston University's <a href="http://www.bu.edu/csp/" class="CSP">Center for Space Physics</a>
 studying tenuous planetary atmospheres, also known as exospheres. Prior, I was a post-doc at <a href="http://www.latmos.ipsl.fr/" class="LATMOS">CNRS/LATMOS</a> in Paris, and at 
 <a href="http://www.virginia.edu/ms/research/rej/index.html/" class="UVA">University of Virginia</a>. I live in Boston with my spouse <a href="http://racheldevorah.studio/">Rachel</a>, and our 2 year old kiddo, Wendy. This site contains scattered bits of information about my research in planetary science. Anything you find here is public domain. </p>
 
 <h3>
 <a id="Instruments" class="anchor" href="#Instruments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instruments</h3>
 
-<p>My recent observing programs have focused on new instrument built here at Boston University called the Rapid Imaging Planetary Spectrograph (RIPS). RIPS is a visiting instrument that has split most of its time between the AEOS 3.7m at Haleakala and the Perkins 1.8m telescope at Lowell Observatory. It is currently located at the Dunn Solar Telescope, where we hope to develop a program for daytime Mercury observations to support <a href="https://sci.esa.int/web/bepicolombo">BepiColombo</a>. Travel bans surrounding COVID-19 have placed all RIPS observations on hold, but I keep plenty busy working on the data in-hand. <a href="RIPS.html"><b>Read more about RIPS...</b></a></p>
+<p>My recent observing programs have focused on new instrument built here at Boston University called the Rapid Imaging Planetary Spectrograph (RIPS). RIPS is a visiting instrument that has split most of its time between the AEOS 3.7m at Haleakala and the Perkins 1.8m telescope at Lowell Observatory. It is currently located at the Dunn Solar Telescope in Sunspot NM, where we hope to develop a program for daytime Mercury observations to support <a href="https://sci.esa.int/web/bepicolombo">BepiColombo</a>. <a href="RIPS.html"><b>Read more about RIPS...</b></a></p>
 
 <h3>
 <a id="Mercury" class="anchor" href="#Mercury" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mercury</h3>
 
-<p>Mercury's doesn't have much of an atmosphere, but the bit of gas that it does have is dynamic, restructing its shape with changes in Mercury's environment and seasons. Mercury's bright sodium and potassium emission lines are easily observable by small ground-based telescopes. Interpreting such observations and connecting them to the extensive <a href="http://www.nasa.gov/mission_pages/messenger/main/">MESSENGER</a> dataset is a job for numerical models. I lead NASA-supported progams to observe Mercury's thin atmosphere and simulate various ground- and space-based measurements. <a href="Mercury/Mercury.html"><b>Read more about Mercury...</b></a> </p>
+<p>Mercury's doesn't have much of an atmosphere, but the bit of gas that it does have is dynamic and shaped by changes in Mercury's environment and seasons. Mercury's bright sodium and potassium emission lines are readily observable from small ground-based telescopes. Interpreting such observations and connecting them to the extensive <a href="http://www.nasa.gov/mission_pages/messenger/main/">MESSENGER</a> dataset is a job for numerical models. I lead NASA-supported progams to observe Mercury's thin atmosphere and simulate various ground- and space-based measurements. <a href="Mercury/Mercury.html"><b>Read more about Mercury...</b></a> </p>
 
 <h3>
 <a id="Io" class="anchor" href="#Io" aria-hidden="true"><span class="octicon octicon-link"></span></a>Io</h3>
@@ -60,12 +60,12 @@ studying tenuous planetary atmospheres, also known as exospheres. Prior, I was a
 <h3>
 <a id="Europa" class="anchor" href="#Europa" aria-hidden="true"><span class="octicon octicon-link"></span></a>Europa</h3>
 
-<p> Io's plasma torus collides with an adjacent moon, Europa. When the geometry allows, energetic neutral atoms escaping Io, also hit Europa painting its surface. It's not well known just how much material is transferred from one moon to the other, so I use HST observations and plasma torus measurements to estimate how much oxygen, sulfur and chlorine is transferred. Smaller ground-based telescopes can also determine fraction of the sodium in Europa's atmosphere that has come from Io, rather than of native origins. Addressing this question ultimately helps resolve another: what's the salinity of Europa's subsurface ocean?</p>
+<p> Plasma from Io collides with an adjacent moon, Europa, and sputters a thin exosphere. When the geometry allows, energetic neutral atoms escaping Io can also hit Europa, painting its surface. It's not well known just how much material is transferred from one moon to the other, so I use HST observations and plasma torus measurements to estimate how much oxygen, sulfur and chlorine is transferred. Smaller ground-based telescopes can also determine fraction of the sodium in Europa's atmosphere that has come from Io, rather than of native origins. Addressing this question ultimately helps resolve another: what's the salinity of Europa's subsurface ocean?</p>
 
 <h3>
 <a id="Moon" class="anchor" href="#Earth's-Moon" aria-hidden="true"><span class="octicon octicon-link"></span></a>Moon</h3>
 
-<p>Earth's moon has an atmosphere similar to Mercury's, but even more rarefied. The total atmospheric content is about as much air as you might have in your house, spread over the entire Moon. During the <a href="http://lcross.arc.nasa.gov/impact.htm">LCROSS</a> impact, colleagues at McDonald Observatory recorded a time series of a plume of sodium extending some 200 km above the impact site. <a href="RIPS.html">RIPS</a> also took some interesting data of the lunar atmosphere during its commissioning at Lowell Observatory that I'm analyzing and simulating now. The Moon's escaping atmosphere has a <a href="Moon/Moon.html">cool interaction with the Earth's gravity</a> near its New Moon phase. Some colleagues and I used this feature to show that meteor influx effectively regulates the Moon's atmospheric escape. </p>
+<p>Earth's moon has an atmosphere similar to Mercury's, but even more rarefied. The total atmospheric content is about as much air as you might have in your house. During the <a href="http://lcross.arc.nasa.gov/impact.htm">LCROSS</a> impact, colleagues at McDonald Observatory recorded a time series of a plume of sodium extending some 200 km above the impact site. <a href="RIPS.html">RIPS</a> also took some interesting data of the lunar atmosphere during its commissioning at Lowell Observatory that I'm analyzing and simulating now. The Moon's escaping atmosphere has a <a href="Moon/Moon.html">cool interaction with the Earth's gravity</a> near its New Moon phase. BU colleagues and I have used this feature to show that meteor influx effectively regulates the Moon's atmospheric escape. </p>
       </section>
       <footer>
         <p>&copy; Carl Schmidt 2021</p>
