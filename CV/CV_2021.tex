@@ -1,0 +1,348 @@
+%NOTE pdfLaTeX -> BibTex -> pdfLaTeX -> pdfLaTeX MUST BE THE COMPILE ORDER!
+%         LaTeXmk supposedly does the same, and is the preferred compile engine
+%         Toggle back and forth between LaTeXmk and pdfLaTeX when it breaks after a compile error.
+
+\documentclass[12pt]{report}
+\usepackage{hyperref}
+\usepackage[paperheight=11.00in,paperwidth=8.50in,top=1.075in,bottom=1.075in,inner=1.0in,outer=1.0in,headsep=24pt,headheight=12pt,footskip=0.30in]{geometry}
+%\pagenumbering{gobble}
+\pagestyle{plain}
+
+%TO MAKE SURE MARGINS DON'T GET IGNORED
+\widowpenalty=10000
+\clubpenalty=10000
+\setlength\parindent{2.2 em}
+\raggedbottom
+\tolerance=10000 %line break tolerances0 
+
+%%FOR SUB AND SUPERSCRIPTS IN TEXT
+\newcommand{\superscript}[1]{\ensuremath{^{\textrm{#1}}}}
+\newcommand{\subscript}[1]{\ensuremath{_{\textrm{#1}}}}
+
+%%TO ALIGN TABLE ROWS THAT ARE UNDER A HORIZONTAL LINE
+\newcommand{\topline}{\rule{0pt}{2.3ex}}
+\newcommand{\bottomline}{\rule[-1.2ex]{0pt}{0pt}}
+\renewcommand{\topfraction}{0.75}	% max fraction of floats at top
+\renewcommand{\bottomfraction}{0.1}	% max fraction of floats at bottom
+
+%DEFINE WHAT THE BULLETS LOOK LIKE
+\renewcommand{\labelitemi}{\textbullet} %FIRST LEVEL BULLET
+\renewcommand{\labelitemii}{$\circ$} %SECOND LEVEL BULLET
+
+% Setup hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+\urlstyle{same}
+
+%==========================================================================%
+%==========================================================================%
+% BEGIN
+%==========================================================================%
+
+
+
+\begin{document}
+\newpage  
+%\chapter*{Carl A. Schmidt} %The way Martha wanted it...CV looks like a chapter heading (though no number)
+{\noindent}{\Large Carl A. Schmidt} \\ %and then your name a little smaller.
+%\newline
+%\input{extras/cv_1_page}
+%\input{extras/Current_Pending}
+
+%\input{extras/cv_body}
+\thispagestyle{myheadings}
+
+
+\noindent BU Center for Space Physics\hfill Tel: (617) 358-5879\\
+725 Commonwealth Ave \hfill Email: schmidtc@bu.edu\\
+Room 506 \hfill Web: \url{http://carlschmidt.science}\\
+Boston, MA 02215 \hfill Citizenship: United States\\
+\vspace{2 mm}\\
+\bf{Education}\rm\\
+\rule{\textwidth}{1pt}\\
+\noindent Ph.D., Astronomy, Boston University\hfill 2013\\
+\indent Thesis: {\it Mercury's Sodium Exosphere} (M. Mendillo Advisor)\\
+%\vspace{1 mm}\\
+\noindent M.A., Astronomy, Boston University \hfill 2008\\
+\noindent B.A., Physics, University of Colorado\hfill 2005\\
+\vspace{2 mm}\\
+\bf{Appointments}\rm\\
+\rule{\textwidth}{1pt}\\
+\noindent Research Assistant Professor, Boston University\hfill 2021 - Present\\
+%  \begin{itemize} \itemsep -2pt % reduce space between items
+%  \item Monte-Carlo modeling of planetary exospheres: Mercury, the Moon, comets
+%  \item Comissioning the Rapid Imaging Planetary Spectrograph, a visiting instrument at Lowell Observatory, the Dunn Solar Telescope, and the Advanced Electro Optical System Telescope
+%  \item Spectroscopy of Io's atmosphere \& plasma torus w/ HST, SOFIA, Keck, LBT \&  APO
+%  \end{itemize}
+\noindent Research Scientist, Boston University\hfill 2017 - 2021\\
+%  \begin{itemize} \itemsep -2pt % reduce space between items
+%  \item Monte-Carlo modeling of planetary exospheres: Mercury, the Moon, comets
+%  \item Comissioning the Rapid Imaging Planetary Spectrograph, a visiting instrument at Lowell Observatory, the Dunn Solar Telescope, and the Advanced Electro Optical System Telescope
+%  \item Spectroscopy of Io's atmosphere \& plasma torus w/ HST, SOFIA, Keck, LBT \&  APO
+%  \end{itemize}
+%\vspace{1 mm}
+\noindent Research Associate, CNRS/LATMOS Paris (F. Leblanc Supervisor)\hfill 2015 - 2017\\
+%   \begin{itemize} \itemsep -2pt % reduce space between items
+%   \item Simulated Mercury's exopshere using Monte-Carlo and hybrid codes 
+%   \item Led ground-based observation \& analysis of the Io, Europa and Mercury environments
+%  \end{itemize}
+%\vspace{1 mm}
+\noindent Research Associate, Univ. of Virginia (R. E. Johnson Supervisor)\hfill 2013 - 2015\\
+%  \begin{itemize} \itemsep -2pt % reduce space between items
+%  \item Mapped gas distributions in cometary coma: Integral-field spectroscopy, narrow-band imaging, numeric and analytic modeling    
+%  \item Observed Io's plasma torus, volcanic activity and neutral clouds
+%  \end{itemize}
+\noindent Graduate Research Assistant, Boston Univ. (M. Mendillo Supervisor)\hfill 2006 - 2013\\
+%   \begin{itemize} \itemsep -2pt % reduce space between items
+%   \item Observed, analyzed and simulated Mercury's atmospheric escape
+%   \item Assisted in design and testing of the imaging spectrograph at Poker Flat Observatory and two standard spectrographs for mobile calibration
+% \end{itemize}
+\noindent Undergraduate Research Assistant, Univ. Colorado (F. Hearty Supervisor)\hfill 2002 - 2005\\
+%   \begin{itemize} \itemsep -2pt % reduce space between items
+%   \item Comissioned the Near-Infrared Camera and Fabry-Perot Spectrometer at Apache Point Observatory
+% \end{itemize}
+\vspace{1 mm}\\
+\textbf{Research Areas:} Planetary exospheres, plasma interactions with surfaces and atmospheres, Monte-Carlo modelling, telescope-based observation and instrumentation\\
+\vspace{2 mm}\\
+\bf{Teaching Experience}\rm \hspace*{\fill} \\
+\rule{\textwidth}{1pt}
+\noindent Lecturer, Boston Univ.\hfill 2018 - 2021 (Summer term, annually)
+   \begin{itemize} \itemsep -2pt % reduce space between items
+   \item \textit{AS101 The Solar System} course in Boston University's Astronomy Dept targeted at undergraduate
+non-majors fulfilling a laboratory science requirement, 4 credits, typically 16 students enrolled with 1 teaching assistant.
+ \end{itemize}
+\noindent Teaching Assistant, Boston Univ.\hfill 2007 (Spring term)
+   \begin{itemize} \itemsep -2pt % reduce space between items
+   \item Lab instructor for \textit{AS101 The Solar System} undergraduate course
+ \end{itemize}
+\noindent Undergraduate Research Advisor: 
+\begin{itemize} \itemsep -2pt 
+	\item Chase Young (Spring - Summer 2018)
+	\item Mikhail Sharov (Fall 2018 - Spring 2021)
+	\item Cameron Moye (Univ. Maryland, NASA SUPPR intern, Summer 2020)
+	\item Aishwarya Ganesh (Univ. Texas, NASA SUPPR intern, Summer 2021)
+	\item Patrick Lierle (Summer 2019 -)
+\end{itemize}
+\noindent Graduate Research Advisor: 
+\begin{itemize} \itemsep -2pt 
+	\item Emma Lovett (Fall 2021 -)
+\end{itemize}
+\vspace{2 mm}
+\noindent\textbf{Articles Under Review} (students underlined) \rm\hspace*{\fill} \\
+\rule{\textwidth}{1pt}
+\begin{itemize} \itemsep -2pt % reduce space between item
+  \item \underline{P. R. Lierle}, C. Schmidt, J. Baumgardner, L. Moore, T. Bida and R. Swindle (2021) \textit{The Spatial Distribution and Temperature of Mercury’s Potassium Exosphere}. The Planetary Science Journal, AAS36212, under review.
+  \item C. Schmidt (2021) \textit{Doppler-Shifted Alkali D Absorption as Indirect Evidence for Exomoons}. Frontiers in Astronomy and Space Sciences, under review.
+ \end{itemize}
+\vspace{2 mm}
+\noindent\textbf{Book Chapters Under Review} (students underlined) \rm\hspace*{\fill} \\
+\rule{\textwidth}{1pt}
+\begin{itemize} \itemsep -2pt % reduce space between item
+  \item C. Schmidt and J. Baumgardner (2021) \textit{Lunar Atmosphere, Alkali Lunar Exosphere} in \textit{Encyclopedia of Lunar Science}, Editors B. Cudnik \& C. Ahrens, Springer, \href{https://doi.org/10.1007/978-3-319-05546-6}{DOI.}
+  \item F. Leblanc, C. Schmidt, V. Mangano, A. Mura, G. Cremonese, J. M. Raines, J.M. Jasinski, M. Sarantos, A. Milillo, R.M. Killen, S. Massetti, T. Cassidy, R.J. Vervack Jr., S. Kameda, M.T. Capria, M. Horanyi, D. Janches, A. Berezhnoy, A. Christou, T. Hirai, \underline{P. Lierle} and J. Morgenthaler (2021) \textit{Comparative Na and K Mercury and Moon exospheres} in \textit{Surface Bounded Exospheres and Interactions in the Solar System}, Space Sciences Series of ISSI, Springer, under review.
+ \end{itemize}
+\vspace{2 mm}
+\noindent\textbf{Peer-Reviewed Articles} (students underlined) \rm\hspace*{\fill} \\
+\rule{\textwidth}{1pt}
+\begin{itemize} \itemsep -2pt % reduce space between item
+  \item A. L. E. Werner, S. Aizawa, F. Leblanc, J. Y. Chaufray, R. Modolo, J. M. Raines, W. Exner, U. Motschmann and C. Schmidt (2022) \textit{ Ion density and phase space density distribution of planetary ions Na$^+$, O$^+$ and He$^+$ in Mercury's magnetosphere}. Icarus, Vol. 372, 114734, \href{https://doi.org/10.1016/j.icarus.2021.114734}{DOI.}
+  \item  T. Cassidy, C. Schmidt, A. Merkel, J. Jasinski and M. Burger (2021) \textit{Detection of Large Exospheric Enhancements at Mercury due to Meteoroid Impacts}, The Planetary Science Journal, Vol. 2, 175, \href{https://doi.org/10.3847/PSJ/ac1a19}{DOI.}
+  \item J. Baumgardner, S. Luettgen, C. Schmidt, M. Mayyasi, S. Smith, C. Martinis, J. Wroten, L. Moore and M. Mendillo (2021) \textit{Long‐Term Observations and Physical Processes in the Moon’s Extended Sodium Tail}, Journal of Geophysical Research: Planets, Vol. 126, 3, \href{https://doi.org/10.1029/2020JE006671}{DOI.}
+  \item V. Mangano and 61 co-authors including C. Schmidt (2021) \textit{BepiColombo science investigations during cruise and flybys at the Earth, Venus and Mercury}, Space Science Reviews, Vol. 217, 23, \href{https://doi.org/10.1007/s11214-021-00797-9}{DOI.} 
+  \item C. Schmidt, J. Baumgardner, L. Moore, T. A. Bida, R. Swindle and \underline{P. Lierle} (2020) \textit{The Rapid Imaging Planetary Spectrograph: Observations of Mercury's Sodium Exosphere in Twilight}. The Planetary Science Journal, Vol. 1, 4, \href{https://doi.org/10.3847/PSJ/ab76c9}{DOI.}
+  \item A. Oza, R.E. Johnson, E. Lellouch, C. Schmidt, N. Schneider, C. Huang, D. Gamborino, A. Gebek, A. Wyttenbach and B-O Demory. (2019) \textit{Sodium and Potassium as Remnants of Volcanic Satellites Orbiting Close-in Gas Giant Exoplanets}, Astrophysical Journal, V885, 2, \href{https://doi.org/10.3847/1538-4357/ab40cc}{DOI.}
+  \item L. Moore, H. Melin, T. Stallard, J. O'Donoghue, J. Moses, S. Miller and C. Schmidt (2019) \textit{Modelling H$_3^+$ in Planetary Atmospheres: Effects of Vertical Gradients on Observed Quantities}, Philosophical Transactions of the Royal Society A, 377, \href{https://doi.org/10.1098/rsta.2019.0067}{DOI.}
+  \item R.E. Johnson, A. Oza, F. Leblanc,  C. Schmidt and T.A. Nordheim (2019) \textit{The Origin and Fate of O$_2$ in Europa's Ice: An Atmospheric Perspective}. Space Science Reviews, 215 (1), 20, \href{https://doi.org/10.1007/s11214-019-0582-1}{DOI.}
+  \item J. Morgenthaler, J. Rathbun, C. Schmidt, J. Baumgardner and N. Schneider (2019) \textit{Large Volcanic Event on Io Inferred from Jovian Sodium Nebula Brightening}, Astrophysical Journal Letters, 871 (2), L23, \href{https://doi.org/10.3847/2041-8213/aafdb7}{DOI.}
+  \item A. Oza, F. Leblanc, R. E. Johnson, C. Schmidt, L. Leclercq, T. Cassidy and J.-Y. Chaufray (2019) \textit{Dusk Over Dawn O$_2$ Asymmetry in Europa's Near-Surface Atmosphere}. Planetary \& Space Science, 167, 23-32, \href{https://doi.org/10.1016/j.pss.2019.01.006}{DOI.}
+  \item C. Schmidt, N. Schneider, F. Leblanc, C. Gray, J. Morgenthaler, J. Turner and C. Grava (2018) \textit{Optical Measurements of Io's Plasma Torus in the Hisaki Epoch}. Journal of Geophysical Research: Space Physics, 123, 7, 5610-5624, \href{https://doi.org/10.1029/2018JA025296}{DOI.}
+  \item F. Leblanc, A. Oza, L. Leclercq, C. Schmidt, T. Cassidy, R. Modolo, J.Y. Chaufray and R. E. Johnson (2017) \textit{On the Orbital Variability of Ganymede's Atmsophere}. Icarus, Vol. 293, p. 185-198, \href{doi.org/10.1016/j.icarus.2017.04.025}{DOI.}
+  \item J. D. Turner, D. Christie, P. Arras, R. E. Johnson and C. Schmidt (2016) \textit{Investigation of the environment around close-in transiting exoplanets using CLOUDY}. Monthly Notices of the Royal Astronomical Society, Vol 458 (4), p.3880-3891, \href{https://doi.org/10.1093/mnras/stw556}{DOI.}
+  \item C. Schmidt (2016) \textit{High Resolution Integral-Field Spectroscopy of Gas and Ion Distributions in the Coma of Comet C/2012 S1 ISON}. Icarus, Vol 265, p. 35-41, \href{https://doi.org/10.1016/j.icarus.2015.10.009}{DOI.}
+  \item R.E. Johnson, A. Oza, L.A. Young, A.N. Volkov and C. Schmidt (2015) \textit{Volatile Loss and Classification of Kuiper Belt Objects}. Astrophysical Journal, Vol 809 (1), 43, \href{https://doi.org/10.1088/0004-637X/809/1/43}{DOI.}
+  \item N.-E. Raouafi, C. M. Lisse, G. Stenborg, G. H. Jones and C. Schmidt (2015) \textit{Dynamics of HVECs emitted from comet C/2011 L4 as observed by STEREO}. Journal of Geophysical Research, Vol 120 (7), pp. 5329-5340, \href{https://doi.org/10.1002/2014JA020926}{DOI.}
+  \item C. Schmidt, R.E. Johnson, J. Baumgardner and M. Mendillo (2015) \textit{Observations of Sodium in the Coma of Comet C/2012 S1 (ISON) During Outburst}. Icarus, Vol 247, p. 313-318, \href{https://doi.org/10.1016/j.icarus.2014.10.022}{DOI.}
+  \item C. Schmidt (2013) \textit{Monte-Carlo Modeling of North-South Asymmetries in Mercury's Sodium Exosphere}, Journal of Geophysical Research, Vol 118, A50396, \href{https://doi.org/10.1002/jgra.50396}{DOI.}
+  \item C. Schmidt, J. Baumgardner, M. Mendillo and J. Wilson (2012) \textit{Escape rates and variability constraints for high-energy sodium sources at Mercury}, Journal of Geophysical Research, Vol 117, A03301, \href{https://doi.org/10.1029/2011JA017217}{DOI.}
+  \item C. Schmidt, J. Wilson, J. Baumgardner and M. Mendillo (2010) \textit{Orbital Effects on Mercury's Escaping Sodium Exosphere}, Icarus, Vol 207 (1), p. 9-16, \href{https://doi.org/10.1016/j.icarus.2009.10.017}{DOI.}
+ \end{itemize}
+\vspace{2 mm}
+\noindent\textbf{Conference Proceedings and Abstracts} (students underlined) \rm\hspace*{\fill} \\
+\rule{\textwidth}{1pt}
+ \begin{itemize} \itemsep -2pt % reduce space between items
+   \item \underline{Sharov, M.}, Schmidt, C., Gray, C., Schneider, C., Withers, P. (2021) An ARCES study of Io's Aurora in Jupiter’s Shadow. APO Science Symposium, held virtually 26-28 July, \href{ http://astronomy.nmsu.edu/aposcisymposium21/}{link.} 
+   \item Morgenthaler J., Vogt, M., Schmidt, C., Schneider, N. (2021) Using Io Input/Output observatory (IoIO) observations to provide an new approach to resolving the question: Is mass flow in Jupiter's magnetosphere driven by internal or external processes? Magnetospheres of the Outer Planets, held July 11-15, 2021 in Liege, BE, \href{ https://www.mop.uliege.be/}{link.} 
+   \item Schmidt, C., Cassidy, T., Merkel, A., Jasinski, J., Burger, M. (2021) Simulating Impulsive Events in the Mercury Exosphere as Observed by MESSENGER UVVS. Mercury Exploration Assessment Group, \#6025, held Feb 3–5, 2021, Virtual, \href{https://www.hou.usra.edu/meetings/mexag2021/pdf/mexag2021_program.htm#sess201}{link.} 
+   \item Schmidt, C. (2020) The Io-Torus Interaction as Seen Through a Telescope, Outer Planet Moon-Magnetosphere Interaction Workshop, \#24, held Nov 5-6 2020, ESA/ESTEC, Noorwijk, The Netherlands, \href{https://indico.esa.int/event/337/contributions/5611/contribution.pdf}{link.} 
+   \item \underline{Moye, C.}, Schmidt, C., Roth, L., Ivchenko, N., Saur, J., \& Retherford, K. (2020). Evidence for an Ionic Pathway in Oxygen and Sulfur Atoms Escaping Io. Bulletin of the AAS, 52(6), \href{https://baas.aas.org/pub/2020n6i318p02}{link.}
+   \item Baumgardner, J., Luettgen, S., Schmidt, C., Mayyasi, M., Smith, S., Martinis, C., Wroten, J., Moore, L., Mendillo, M. (2020) A new long-term study of the Moon’s extended tail of sodium atoms. American Geophysical Union, Fall Meeting 2020, abstract \#SM33F-3282.
+   \item \underline{Lierle, P.}, Schmidt, C., Baumgardner, J., Moore, L., Swindle, R. (2020) The Brightness of Mercury's Potassium Exosphere. Europlanet Science Congress, Vol.14, EPSC2020-493, 2020, held 21 Sept - 9 Oct 2021, Virtual, \href{https://doi.org/10.5194/epsc2020-493}{DOI.}
+   \item \underline{Sharov, M.}, Schmidt, C., Gray, C., Schneider, C., Withers, P. (2020) Io's Optical Airglow in Jovian Eclipse. Europlanet Science Congress, Vol.14, EPSC2020-457, 2020, held 21 Sept - 9 Oct 2021, Virtual, \href{https://doi.org/10.5194/epsc2020-457}{DOI.}
+   \item Schmidt, C., Moullet, A., de Kleer, K., Spencer J., Roth, L. (2019) A Multi-Wavelength Study of Io's Atomic Oxygen and Sulfur Emission. American Geophysical Union, Fall Meeting 2019, abstract \#SM33F-3282.
+   \item Spencer J., Grundy, W., Schmidt C. (2019) Rapid Temporal Variability of Condensed Oxygen on Europa? EPSC-DPS Joint Meeting, held 15-20 Sept 2019 in Geneva, Switzerland, \href{https://meetingorganizer.copernicus.org/EPSC-DPS2019/EPSC-DPS2019-935-1.pdf}{link.}
+   \item Mangano V., Zender, J., Huovelin, J., Schmidt, C., Killen, R., Kameda, S. (2019) Sodium exosphere of Mercury: a call for new Earth-based telescopes and observers. EPSC-DPS Joint Meeting, held 15-20 Sept 2019 in Geneva, Switzerland, \href{https://meetingorganizer.copernicus.org/EPSC-DPS2019/EPSC-DPS2019-1967-2.pdf}{link.}
+   \item Bhattacharyya, D., Clarke, J., Mayyasi, M., Chaufray, J.-Y., Schmidt, C., Johnson, R. E., Bertaux, J.-L., Moore, L., Chaffin, M., Groeller, H., Schneider, N. (2019) Evidence of Hot Hydrogen in the Exosphere of Mars. EPSC-DPS Joint Meeting, held 15-20 Sept 2019 in Geneva, Switzerland, \href{https://meetingorganizer.copernicus.org/EPSC-DPS2019/EPSC-DPS2019-960-1.pdf}{link.}
+   \item Oza, A. and 14 co-authors including Schmidt C. (2019) Alkaline Signatures of an Active Exomoon, Extreme Solar Systems 4, id. 306.05. Bulletin of the American Astronomical Society, Vol. 51, No. 6, \href{https://113qx216in8z1kdeyi404hgf-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/exss4_abstracts.pdf#abs306.05}{link.}
+   \item Baumgardner, J., Schmidt, C., Moore, L., Mendillo M., Mayyasi M. (2019) 20 Years of Observations of the Lunar Sodium Tail. 50th Lunar and Planetary Science Conference, held 18-22 March, 2019 in Woodlands, Texas. LPI id.1940, \href{https://www.hou.usra.edu/meetings/lpsc2019/pdf/1940.pdf}{link.}
+   \item Morgenthaler J. \& Schmidt, C. (2018) Evidence for a large Volcanic Outburst on Io in Early January 2018 from Ground-Based Sodium Observations by the Io Input/Output facility (IoIO). American Geophysical Union, Fall Meeting 2018, abstract \#SM52A-04
+   \item Baumgardner, J., Schmidt, C., Moore, L., Swindle, R., Shaw, C. (2018) Concurrent Lucky Imaging and Spectroscopy of the Mercury Exosphere with the Rapid Imaging Planetary Spectrograph. American Geophysical Union, Fall Meeting 2018, abstract \#P22B-05
+   \item Johnson, R. E., Oza, A., Schmidt, C., Leblanc, F. (2018) Plasma and Thermal Processing of Europa's Surface, Europa Deep Dive: Chemical Composition of Europa and State of Laboratory Data, held 9-11 Oct, 2018 in Houston, Texas, id.3041, \href{https://www.hou.usra.edu/meetings/europadeepdive2018/pdf/3041.pdf}{link.} 
+   \item Oza, A. and 11 co-authors including Schmidt C. (2018) Exogenic Volatiles in the Extended Exospheres of Extrasolar Giant Planets, European Planetary Science Congress 2018, held 16-21 September 2018 at TU Berlin, Germany, id.EPSC2018-1199, \href{https://meetingorganizer.copernicus.org/EPSC2018/EPSC2018-1199-2.pdf}{link.} 
+   \item Schmidt, Baumgardner, J., Moore, Bida (2018) Ground-Based BepiColombo Support with the Rapid Imaging Planetary Spectrograph, European Planetary Science Congress 2018, held 16-21 September 2018 at TU Berlin, Germany, id.EPSC2018-1216, \href{https://meetingorganizer.copernicus.org/EPSC2018/EPSC2018-1216-2.pdf}{link.} 
+   \item Schneider, N., Schmidt C., Kagitani, M., Kasaba, Y., Kimura, T., Murakami, G., Tsuchiya, F., Yamakazi, I, Yoshikawa, I, Yoshioka, K. (2018) A Search for Ion Scale Height Variability in Hisaki Io Torus Observations, Magnetospheres of the Outer Planets, held July 8-11, 2018 at University of Colorado, \href{https://lasp.colorado.edu/home/mop/files/2018/07/Mop2018-Program-Online-PDF-A-Version-No-Covers.pdf/}{link.} 
+   \item Schmidt C., (2018) Visible Wavelength Spectroscopy of the Io Torus During the Hisaki Mission, Magnetospheres of the Outer Planets, held July 8-11, 2018 at University of Colorado, \href{https://lasp.colorado.edu/home/mop/files/2018/07/Mop2018-Program-Online-PDF-A-Version-No-Covers.pdf/}{link.} 
+   \item Schmidt C., Leblanc, F., Reardon, K., Killen, R., Gary D. E., Ahn, K. (2018) Absorption Spectroscopy of Mercury's Exosphere During the 2016 Solar Transit, Mercury: Current and Future Science of the Innermost Planet, Proceedings of the conference held 1-3 May, 2018 in Columbia, MD, 2047, \href{https://www.hou.usra.edu/meetings/mercury2018/pdf/6022.pdf}{link.} 
+   \item Nerney, E. G., Bagenal, F., Yoshioka, K., Schmidt, C. (2017) Constraining Plasma Conditions of the IPT via Spectral Analysis of UV \& Visible Emissions and Comparing with a Physical Chemistry Model, American Geophysical Union, Fall Meeting 2017, abstract \#SM33C-2672
+   \item Oza, A. V., Leblanc, F., Chaufray, J. Y., Schmidt, C., Roth, L., Johnson, R. E., Cassidy, T. A., Leclercq, L., Modolo, R. (2017) Europa and Ganymede's Water-Product Exospheres. European Planetary Science Congress 2017, held 17-22 September, 2017 in Riga Latvia, id. EPSC2017-626, \href{https://meetingorganizer.copernicus.org/EPSC2017/EPSC2017-626-1.pdf}{link.} 
+   \item Schmidt, C., Leblanc, F., Moore, L., Bida, T. A. (2017) Detection of Mercury's Potassium Tail. American Astronomical Society, DPS meeting \#49, id.422.01
+   \item Schmidt, C. (2017) Absorption By Mercury's Atmosphere During Solar Transit. Transiting Exoplanets, held 17-21 July at Keele University, UK, \href{https://wasp-planets.net/conference/talk-abstracts/#44}{link.} 
+   \item Schmidt, C., Reardon, K., Killen, R. M., Gary, D. E., Ahn, K., Leblanc, F., Baumgardner, J. L., Mendillo, M., Beck, C., Mangano, V. (2016) Absorption by Mercury's Exosphere During the May 9th, 2016 Solar Transit. American Geophysical Union, Fall General Assembly 2016, abstract \#P53B-2198.
+   \item Nerney, E. G., Bagenal, F., Schmidt, C., Yoshioka, K., Steffl, A., Schneider, N. M. (2016) Observations of Ion Composition in the Io Plasma Torus. American Geophysical Union, Fall General Assembly 2016, abstract \#P23C-2177
+   \item Raouafi, N. E., Lisse, C. M., Stenborg, G., Jones, G., Schmidt, C. (2016) Dynamics of HVECs emitted from comet C/2011 L4 as observed by STEREO. American Geophysical Union, Fall General Assembly 2016, \#P43B-2114
+   \item Leblanc, F., Oza, A., Schmidt, C., Leclercq, L., Modolo, R., Chaufray, J.-Y. (2016) 3D multispecies collisional model of Ganymede's atmosphere. American Astronomical Society, DPS meeting \#48, id.429.09
+   \item Skrutskie, M., Nelson, M., Schmidt, C. (2016) Monitoring the Near-infrared Volcanic Flux from Io's Jupiter-facing Hemisphere from Fan Mountain Observatory. American Astronomical Society, DPS meeting \#48, id.429.22
+   \item Leclercq, L., Chanteur, G., Modolo, R., Leblanc, F., Schmidt, C., Langlais, B., Thebault, E. (2016) Study of the internal magnetic field of Mercury through 3D hybrid simulations. American Astronomical Society, DPS meeting \#48, id.117.01
+   \item Oza, A. Leblanc, F., Schmidt, C., Johnson R. E. (2016) Origin and Evolution of Europa's Oxygen Exosphere. American Astronomical Society, DPS meeting \#48, id.517.05
+   \item Schmidt, C., Johnson, R. E., Mendillo, M., Baumgardner, J. L., Moore, L., O'Donoghue, J., Leblanc, F. (2015) Evidence for a Plasma Interaction with Europa's Sodium Clouds from High Resolution Integral Field Spectroscopy. American Geophysical Union, Fall Meeting 2015, abstract \#SM31B-2491
+   \item Lisse, C. M., Raouafi, N. E., Stenborg, G., Jones, G. H., Schmidt, C. (2015) Dynamics of High-Velocity Evanescent Clumps (HVECs) Emitted from Comet C/2011 L4 (Pan-STARRS) as Observed by STEREO. American Geophysical Union, Fall Meeting 2015, abstract \#SM31D-2542
+   \item Schmidt, C., Johnson, R. E., Mendillo, M., Baumgardner, J., Leblanc, F. (2015) Neutral and Plasma Distributions in the Coma of Comet C/2012 S1 ISON: Narrowband Imaging and Integral-Field Spectroscopy. European Planetary Science Congress, held 27 Sept - 2 Oct, 2015 in Nantes, France, \href{https://meetingorganizer.copernicus.org/EPSC2015/EPSC2015-315-2.pdf}{link.} 
+   \item Schneider N., and 11 co-authors including Schmidt C., (2015) Plasma Parameters in Io's Torus: Measurements from Apache Point Observatory. European Planetary Science Congress, held 27 Sept - 2 Oct, 2015 in Nantes, France, \href{https://meetingorganizer.copernicus.org/EPSC2015/EPSC2015-418-1.pdf}{link.} 
+   \item Schmidt, Schneider, Turner, Johnson, Chaffin, Rugenski, McNeil (2015) Optical Spectroscopy of the Io Plasma Torus in Support of Hisaki/EXCEED. Magnetospheres of the Outer Planets, held June 1-5, 2015 at Georgia Tech.
+   \item Schmidt, C., Johnson, R. E., Mendillo, M., Baumgardner, J. L. (2014) Velocity-Resolved Multi-Scale Imaging of Na Escape from Io. American Geophysical Union, Fall Meeting 2014, abstract \#P21A-3901
+   \item Turner, J., Schmidt, C., Schneider, N., Chaffin, M., McNeil, E., Chanover, N., Oza, A., Rugenski, S., Thelen, A., Johnson, R. E., Bittle, L., King, P. (2014) Plasma Parameters in Io's Torus: Measurements from Apache Point Observatory. American Geophysical Union, Fall Meeting 2014, abstract \#P13E-07
+   \item Schmidt, C., Johnson R. E., Baumgardner, J., Mendillo M., (2014) Gas Distributions in Comet ISON's Coma: Concurrent Integral-Field Spectroscopy and Narrow-band Imaging, American Astronomical Society, DPS meeting \#46, id.113.02
+   \item Johnson R. E., Oza, A., Young, L., Volkov, A., Schmidt C. (2014) Volatile Loss and Classification of Kuiper Belt Objects. American Astronomical Society, DPS meeting \#46, id.510.01
+   \item Schmidt C.,  Mendillo M., Baumgardner, J., Johnson, R. E. (2013) Sodium Escape in Mercury's Atmosphere: Ground-Based Observations in Support of MESSENGER, American Astronomical Society, DPS meeting \#45, id.102.07
+   \item Bhattacharyya, D., Clarke, J. T., Bertaux, J., Chaufray, J., Montgomery, J., Schmidt, C. (2013) Analyzing HST observations of the Martian Corona with different modeling techniques, American Astronomical Society, DPS meeting \#45, id.313.15
+   \item Schmidt C., Baumgardner, J., Mendillo, M. (2012) Hemispheric Asymmetries in Mercury's Exosphere, American Astronomical Society, DPS meeting \#44, id.410.05
+   \item Clarke, J. T., Bhattacharyya, D., Montgomery, J., Bertaux, J., Chaufray, J., Gladstone, R., Quemerais, E., Wilson, J., Schmidt, C., Mendillo, M (2012) HST observations and modeling of the Martian hydrogen corona, American Astronomical Society, DPS meeting \#44, id.214.01
+   \item Schmidt C., Baumgardner, J., Mendillo, M., Sundberg, T., Walsh B. (2012) Hemispheric Asymmetries in Mercury's Exosphere Due to the Offset Magnetic Dipole, American Geophysical Union, Fall Meeting 2012, abstract \#P33B-1931
+   \item Schmidt C., Baumgardner, J., Mendillo, M., Wilson J. K. (2011), Escape rates and variability constraints for high-energy sodium sources at Mercury, EPSC-DPS Joint Meeting 2011, held 2-7 Oct 2011 in Nantes, France, Vol. 6, EPSC-DPS2011-100.
+   \item Mangano V. and 19 co-authors including Schmidt, C. (2010) The sodium emission from Mercury's exosphere as detected by the IMW coordinated campaign in June 2006, 38th COSPAR Scientific Assembly, held 18-15 July 2010, in Bremen, Germany, p.5, B07-0022-10. 
+   \item Schmidt, C., Baumgardner, J., Mendillo, M., Davis, C., Musgrave, I. (2010) Observations of Extended Emissions at Mercury by the STEREO Spacecraft, European Planetary Science Congress, held 20-24 Sept in Rome, Italy, Vol. 5, EPSC2010-419.
+   \item Schmidt, C., Baumgardner, J., Mendillo, M., Davis, C., Musgrave, I. (2010) Observations of tail structures at Mercury with the STEREO spacecraft, Joint MESSENGER / BepiColombo Workshop, held, Nov 2-5, in Boulder, CO, Abstract 2.2.1. 
+   \item Schmidt, Wilson, Baumgardner, J., Mendillo (2009) Variability in Mercury's Escaping Sodium Atmosphere, American Astronomical Society, DPS meeting \#41, id.35.01
+   \item Schmidt, Wilson, Baumgardner, J., Mendillo (2008) Wide Field Observations of Variability in Mercury's Comet-like Sodium Tail, American Astronomical Society, DPS meeting \#40, id.51.09; Bulletin of the American Astronomical Society, Vol. 40, p.491
+   \item Schmidt, Wilson, Baumgardner, J., Mendillo (2008) Wide Field Observations of Mercury's Extended Sodium Exosphere, 37th COSPAR Scientific Assembly. Held 13-20 July 2008, in Montreal, Canada., p.2775, B07-0036-08
+   \item Schmidt, Baumgardner (2007) Boston University Calibration Facility for Optical Aeronomy. CEDAR Meeting Abstract
+  \end{itemize}
+\vspace{2 mm}
+
+\noindent\bf{Non-Peer-Reviewed Publications}\rm \hspace*{\fill} \\
+\rule{\textwidth}{1pt}
+ \begin{itemize} \itemsep -2pt % reduce space between items
+  \item Chanover, N., Schmidt, C., \& DeColibus, D. (2021) \textit{ The Continued Relevance of 4m Class Telescopes to Planetary Science in the 2020s} White paper \#497 submitted to the Decadal Survey in Planetary Science and Astrobiology 2023-2032, Bulletin of the AAS, 53(4), \href{https://doi.org/10.3847/25c2cfeb.752e4fa4}{DOI.}
+  \item P. Prem, A. Kereszturi, A. Deutsch, C. Hibbitts, C. Schmidt and 36 co-authors (2021) \textit{Lunar Volatiles and Solar System Science}, White paper \#68 submitted to the Decadal Survey in Planetary Science and Astrobiology 2023-2032, Bulletin of the AAS, 53(4), \href{https://arxiv.org/ftp/arxiv/papers/2012/2012.06317.pdf}{ArXiv}, \href{https://doi.org/10.3847/25c2cfeb.f62324b8}{DOI.}
+  \item A. Deutsch, N. Chabot, A. Maiti, A. Luspay-Kuti, A. Kereszturi, A. Lucchetti, A. Virkki, A. Colaprete, A. Vorburger, B. Byron, B. Jones, B. Anzures, B. Butler, C. Schmidt and 59 co-authors (2021) \textit{Science Opportunities offered by Mercury’s Ice-Bearing Polar Deposits}. Whitepaper \#69 submitted to the Planetary Science and Astrobiology Decadal Survey 2023-2032, Bulletin of the AAS, 53(4), \href{https://doi.org/10.3847/25c2cfeb.98885a8e8}{DOI.} 
+  \item J. Clarke, C. Schmidt, J. Baumgarder, C. Carveth, M. Matta, M. Mendillo, L. Moore, and P. Withers (2013) White Paper on Comparative Planetary Exospheres. White paper submitted to Heliophysics Decadal Survey, \href{http://sirius.bu.edu/withers/pppp/pdf/clarkeheiodswp2010.pdf}{link.}
+  \item F. Hearty, S. Beland, J. Green, N. Cunningham, J. Barentine, M. Drosback, R. Valentine, A. Bondarenko, C. Schmidt, J. Walawender, C. Froning, J. Morse and P. Hartigan (2005) Colorado's Near-Infrared Camera (AKA NIC-FPS) Commissioning on the ARC 3.5M Telescope, Proc. SPIE, Vol 5904, p. 199-211, \href{https://doi.org/10.1117/12.617593}{DOI.}
+  \end{itemize}
+\vspace{2 mm}
+
+\noindent\bf{Invited Colloquia}\rm \hspace*{\fill} \\
+\rule{\textwidth}{1pt}
+\noindent Io's Atmosphere and Plasma Torus, Boise State University, Boise, ID, USA \hfill 2022\\
+\noindent Optical Spectroscopy of Jupiter's Moons, AAVSO, Cambridge, MA, USA \hfill 2021\\
+\noindent Observing the Exospheres of Mercury \& the Moon, UMASS, Lowell, MA, USA \hfill 2020\\
+\noindent Io's Escaping Atmosphere \& Plasma Torus, Boston College, Boston, MA, USA \hfill 2018\\
+\noindent Solar Transit Spectroscopy of Mercury's Exosphere, Universiteit van Amsterdam, NL \hfill 2018\\
+\noindent Io's Escaping Atmosphere \& Plasma Torus, Universit\"at zu K\"oln, DE \hfill 2018\\
+\noindent Io's Volcanic Atmosphere and Plasma Torus, Boston University, Boston, MA, USA \hfill 2018\\
+\noindent Io's Plasma Torus Density \& the S$^+$ Ribbon, Royal Institute of Technology, SE \hfill 2017\\
+\noindent Small Telescopes Applications: Mercury, Io \& Comets, Universit\'e de Li\`ege, BE \hfill 2017\\
+\noindent Planetary Applications for Small Telescopes, Institute of Astronomy, Sofia, BG \hfill 2017\\
+\noindent Visible Spectroscopy of the Io Plasma Torus, LESIA, l'Observatoire de Paris, FR \hfill 2016\\
+\noindent Observations of Io, its Plasma Torus and Neutral Clouds, Lancaster Univ, UK \hfill 2016\\
+\noindent Modern Planetary Applications for Small Telescopes, UMD, College Park, MD, USA \hfill 2015\\
+\noindent Characteristics of Sodium Escape at Mercury, SERENA-HEWG, Killarney, IRL\hfill 2014\\
+\noindent Atmospheric Escape in Our Solar System, Space Challenges, Sofia, BG \hfill 2013\\
+\noindent Mercury's Sodium Atmosphere, AOSS, Univ. of Michigan, Ann Arbor, MI, USA \hfill 2012\\
+\noindent Mercury's Tenuous Atmosphere, Heliophysics, NASA GSFC, Greenbelt, MD, USA \hfill 2012\\
+%\vspace{2 mm}\\ 
+
+\noindent\bf{Grants, Awards \& Fellowships}\rm \hspace*{\fill} \\
+\rule{\textwidth}{1pt}
+\begin{itemize} \itemsep -2pt % reduce space between items
+ \item NSF Astronomy and Astrophysics Research Grant. {\it Mass transport in Jupiter's magnetosphere: driven by internal or external processes?} Co-I/Institutional PI (PI Jeff Morgenthaler, Planetary Science Institute), 2021.09.01 to 2024.08.30. AST-2108416. Funding to BU: \$94,720
+ \item NASA Solar System Observations {\it Dynamic Processes on the Galilean Satellites}, Co-I/Institutional PI (PI John Spencer, Southwest Research Institute), 2021.07.01 to 2024.06.30. 20-SSO20-2-0034. Funding to BU: \$59,981.
+ \item NASA Discovery Data Analysis Program {\it Investigating the Impactor Contribution to Mercury's Exosphere}, Co-I/Institutional PI (PI Aimee Merkel, Univ. Colorado), 2021.05.21 to 2024.04.30. DDAP18-2-0053. Total budget: \$551,469. Funding to BU: \$131,866
+ \item NASA Science Mission Directorate {\it Characterizing Mercury’s Exosphere with BepiColombo-PHEBUS: US-based Co-Investigators}, PI, 2020.10.13 to 2025.10.12, SMDSS20-0011. Total budget / funding to BU: \$226,061
+ \item NASA/NExSCI Keck Award {\it Response of Io's atomic atmosphere and ionosphere to Jovian eclipse: joint observations with HIRES and HST}, PI, 2020.02.01 to 2020.09.30. 87/2020A-N079. Total budget / funding to BU: \$11,775
+ \item NASA New Frontiers Data Analysis Program {\it The plasma distribution in the Io torus during the Juno epoch}, Co-I (PI Paul Withers, Boston Univ.), 2019.03.21 to 2022.02.28. NFDAP18-2-0022. Total budget / funding to BU: \$289,272
+ \item SOFIA Guest Observer Cycle 7 {\it Io's Atomic Sulfur Atmosphere in the Mid-IR}, PI, 2019.04.01 to 2020.03.31. 07-0221. Total budget / funding to BU: \$16,700
+ \item NASA/NExSCI NN-EXPLORE WIYN PI Data Award {\it Confirming a High Velocity Exo-Exosphere at HD 80606b}, PI, 2019.02.01 to 2021.01.31. N0223. Total budget / funding to BU: \$10,100
+ \item NASA/NExSCI Keck Award {\it Juno Support: Io's Auroral Emissions in Jovian Eclipse}, PI, 2019.02.01 to 2020.01.31. 84-208B-N110. Total budget / funding to BU: \$10,062
+ \item Hubble Space Telescope Cycle 26 {\it Auroral and magnetospheric context for Juno in situ instruments during Cycle 26}, Co-I (PI Denis Grodent, Univ. Liege), 2019.03.01 to 2020.02.28. HST-GO-15638. Total budget / funding to BU: \$134,087
+ \item NASA Solar System Workings  {\it Physical Processes Governing Mercury's Alkali Exosphere}, PI, 2018.11.01 to 2021.03.31. 17-SSW17-0206. Total budget: \$352,275. Funding to BU: \$203,872
+ \item NASA Solar System Observations {\it Ground-based observations of Mercury's exosphere in the post-MESSENGER era}, PI, 2018.03.01 to 2021.02.28. 17-SSO17-2-0040. Total budget: \$507,403. Funding to BU: \$165,281
+ \item NASA Solar System Workings {\it The Ins and Outs of the Io Plasma Torus: understanding mass and energy transport using two decades of optical and radio observations}, Co-I (PI Jeff Morgenthaler, Planetary Science Institute), 2017.08.23 to 2020.08.22. SSW16-2-0086. Total budget: \$526,604. Funding to BU: \$115,358
+ \item Hubble Space Telescope Cycle 25 {\it Extreme Doppler Shifting of Io's Neutral Jets}, PI, 2018.03.01 to 2019.02.28. HST-GO-15147. Total budget / funding to BU: \$39,999
+ \item NSF Astronomy and Astrophysics Research Grant {\it The Influence of Mercury's Magnetosphere on Its Outermost Atmosphere}, Science PI (PI Luke Moore, Boston Univ.), 2016.07.15 to 2019.06.30. AST-1614903. Total budget / funding to BU: \$374,407
+ \item NASA Earth and Space Sciences Fellowship {\it Mercury's Escaping Atmosphere}, Science PI (PI Michael Mendillo, Boston Univ.), 2010.0+3.15 to 2013.03.15. 10-Planet10F-0041. Total budget / funding to BU: \$90,000
+ \end{itemize}
+\vspace{2 mm}
+
+\noindent\bf{Telescope Time Awarded}\rm \hspace*{\fill} \\
+\rule{\textwidth}{1pt}
+Keck I \& II, NASA NExScI (as Co-I, PIs L. Moore \& K. de Kleer) \hfill 2021\\
+Very Large Telescope, ESO (as Co-I, PI A. Oza) \hfill 2020\\
+Keck I \& II, NASA NExScI  (as PI \& Co-I, PI M. Vogt) \hfill 2020\\
+THEMIS Solar Telescope, SOLARNET (as Co-I, PI V. Mangano) \hfill 2019, 2020\\
+Big Bear Solar Observatory \hfill 2019\\
+GREGOR Solar Telescope \hfill 2019\\
+SOFIA, USRA \hfill 2019\\
+IRTF, NASA (as Co-I, PI L. Moore) \hfill 2019\\
+WIYN, NASA NExScI \hfill 2019\\
+Keck I, NASA NExScI (as PI \& Co-I, PI K. de Kleer) \hfill 2019\\
+Hubble Space Telescope, STScI (as Co-I, PI D. Grodent) \hfill 2019\\
+Hubble Space Telescope, STScI \hfill 2018\\
+Dunn Solar Telescope, National Solar Observatory \hfill 2016\\
+Vacuum Tube Telescope, SOLARNET \hfill 2016\\
+GREGOR Solar Telescope, SOLARNET (as Co-I, PI V. Mangano) \hfill 2016\\
+Very Large Telescope, ESO (as Co-I, PI B. Bonfond) \hfill 2015\\
+Via Institutions Partnerships: Large Binocular Telescope, IRTF, Apache Point 3.5m, Lowell Discovery Telescope\\
+%\vspace{2 mm}\\
+
+\noindent\bf{Service \& Team Activity}\rm \hspace*{\fill} \\
+\rule{\textwidth}{1pt}
+\begin{itemize} \itemsep -2pt % reduce space between items
+  \item Instrument Science PI: Rapid Imaging Planetary Spectrograph: http://carlschmidt.science/RIPS.html
+  \item Mission Science Co-I: ESA/JAXA BepiColombo mission
+  \item Institutional Representative: Massachusetts Space Grant Consortium (2020 -)
+  \item International Space Science Institute Teams: The influence of Io on Jupiter's Magnetosphere (2016 - 2017), Surface Bounded Exospheres and Interactions in the Solar System (2020), Mass loss from Io’s unique atmosphere: Do volcanoes really control Jupiter’s magnetosphere? (2021 - 2022), Exosphere-Surface Interactions (2021 - 2022)
+  \item Journal Reviews: Icarus (outstanding reviewer award 2017), Journal of Geophysical Research, Geophysical Research Letters, Nature, Astronomy \& Astrophysics
+  %\item NASA Panelist: DDAP, PMDAP, CDAP, RDAP, OPR, PICASSO, MatISSE, SSW, Keck Time Allocation Committee, PDS Derived Data Review 
+  \item Panelist for NASA programs: 11x Research Opportunities in Space and Earth Science (ROSES) programs, Keck Time Allocation Committee, PDS Derived Data Review, Discovery Mission Extension Review.
+  \item Local Organizing Committees: Cool Stars 20 Conference, Boston University (2018), DPS Conference, Provience RI (2021)
+  \item Scientific Organizing Committees: Jupiter Day, Boston University (2018)
+  \item Session Chair: AGU, Dynamics of the Io-Jupiter System (2014), Io plasma torus splinter meetings at MOP (2017 \& 2018), Exosphere/Magnetosphere, Mercury: Current and Future Science of the Innermost Planet, USRA (2018)
+  \item Memberships: American Astronomical Society, 	International Astronomical Union, American Geophysical Union
+\end{itemize}
+\vspace{2 mm}
+
+\noindent\bf{Public Outreach, Press \& Media}\rm \hspace*{\fill} \\
+\rule{\textwidth}{1pt}
+\noindent Boston Globe: {\it Bad weather may hurt viewing of rare lunar eclipse Friday in Mass.} \hfill 2021\\
+\noindent Swedish National Public Television: {\it Today a storm from the moon pulls past the earth.} \hfill 2021\\
+\noindent NY Times: {\it The Moon Has a Comet-Like Tail.} \hfill 2021\\
+\noindent Wall Street Journal: {\it Comet Neowise as Seen Around the World} \hfill 2020\\
+\noindent Sky \& Telescope: {\it Comet NEOWISE Dazzles at Dusk} \hfill 2020\\
+\noindent Fox News: {\it Comet NEOWISE may have sodium tail, new images suggest} \hfill 2020\\
+\noindent Host, Navajo-Hopi Astronomy Outreach Program, Lowell Observatory \hfill 2018\\
+\noindent TV Interview, Space Challenges Documentary, Bulgarian National Public Television \hfill 2017\\
+\noindent TV Interview, NASA ScienceCast: The 2016 Transit of Mercury \hfill 2016\\
+\noindent Content Advisor, Science in the News, Harvard University GSAS \hfill 2013 - 2016\\
+\noindent Lecturer, Fan Mountain Observatory Public Night \hfill 2014 - 2015\\
+\noindent Radio Interview, Science Straight Up, WTJU FM \hfill 2014\\
+\noindent Science Fair Judge, Virginia Piedmont Regionals, Charlottesville, VA \hfill 2014\\
+\noindent Lab Instructor, Upward Bound program, Boston University \hfill 2010\\
+\noindent Phys.org: {\it Mercury's comet-like appearance spotted by satellites looking at the Sun} \hfill 2010\\
+\noindent Universe Today: {\it STEREO Catches Mercury Acting Like a Comet} \hfill 2010\\
+\noindent Science Fair Judge, O'Bryant School for Math and Science, Roxbury, MA \hfill 2009\\
+\noindent Workshop Coordinator, Sprout, www.thesprouts.org, Somerville, MA \hfill 2009 - 2013\\
+
+\end{document}
