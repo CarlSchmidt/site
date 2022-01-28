@@ -18,11 +18,9 @@
     <div class="wrapper">
       <header>
         <h1>Carl A. Schmidt</h1>
-        <p><b>Planetary Science</b></p>
-        <br><img src="images/Astronomy_Factory.jpg" alt="Typical day at the Astronomy Factory" style="width:288px;height:216px;">
+        <p><b>Planetary Science</b>        schmidtc @ bu.edu</p>
+        <img src="images/Astronomy_Factory.jpg" alt="Typical day at the Astronomy Factory" style="width:288px;height:216px;">
         Wendy and I hard at work in our home office.
-        <br>
-        <br>schmidtc @ bu.edu  
         <br><a href="CV/CV_2021.pdf">Curriculum Vitae</a>
         <br><a href="Publications.html">Publications</a>
         <br><a href="CV/thesis_schmidt.pdf">PhD Thesis</a>
@@ -40,7 +38,7 @@ studying tenuous planetary atmospheres, also known as exospheres. Prior, I was a
 <h3>
 <a id="Instruments" class="anchor" href="#Instruments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Instruments</h3>
 
-<p>My recent observing programs have focused on new instrument built here at Boston University called the Rapid Imaging Planetary Spectrograph (RIPS). RIPS is a visiting instrument that has split most of its time between the AEOS 3.7m at Haleakala and the Perkins 1.8m telescope at Lowell Observatory. It is currently located at the Dunn Solar Telescope in Sunspot NM, where we hope to develop a program for daytime Mercury observations to support <a href="https://sci.esa.int/web/bepicolombo">BepiColombo</a>. <a href="RIPS.html"><b>Read more about RIPS...</b></a></p>
+<p>Recent observing programs have used a new instrument built here at Boston University called the Rapid Imaging Planetary Spectrograph (RIPS). RIPS is a visiting instrument that has split its time between the AEOS 3.7m at Haleakala, the Perkins 1.8m telescope at Lowell Observatory, and the Dunn Solar Telescope in Sunspot NM, where we hope to develop a program for daytime Mercury observations to support <a href="https://sci.esa.int/web/bepicolombo">BepiColombo</a>. <a href="RIPS.html"><b>Read more about RIPS...</b></a></p>
 
 <h3>
 <a id="Mercury" class="anchor" href="#Mercury" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mercury</h3>
@@ -67,9 +65,6 @@ studying tenuous planetary atmospheres, also known as exospheres. Prior, I was a
 
 <p>Earth's moon has an atmosphere similar to Mercury's, but even more rarefied. The total atmospheric content is about as much air as you might have in your house. During the <a href="http://lcross.arc.nasa.gov/impact.htm">LCROSS</a> impact, colleagues at McDonald Observatory recorded a time series of a plume of sodium extending some 200 km above the impact site. <a href="RIPS.html">RIPS</a> also took some interesting data of the lunar atmosphere during its commissioning at Lowell Observatory that I'm analyzing and simulating now. The Moon's escaping atmosphere has a <a href="Moon/Moon.html">cool interaction with the Earth's gravity</a> near its New Moon phase. BU colleagues and I have used this feature to show that meteor influx effectively regulates the Moon's atmospheric escape. </p>
       </section>
-      <footer>
-        <p>&copy; Carl Schmidt 2021</p>
-      </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
     
