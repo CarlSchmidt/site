@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  1 MAR 2022 11:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.27)  13 MAY 2022 14:30
 entering extended mode
 **./CV_2022.tex
 (CV_2022.tex
@@ -255,11 +255,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--55
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 62.
+(Font)              <12> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 62.
+(Font)              <8> on input line 61.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 62.
+(Font)              <6> on input line 61.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 119.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
@@ -270,66 +270,71 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
  [1{C:/Users/schmidtc/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ] [2] [3]
-Underfull \hbox (badness 1953) in paragraph at lines 187--188
+Underfull \hbox (badness 1953) in paragraph at lines 195--196
 \OT1/cmr/m/n/12 Planet Moon-Magnetosphere In-ter-ac-tion Work-shop, #24, held N
 ov 5-6 2020,
  []
 
 [4] [5] [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 253--274
+Underfull \hbox (badness 10000) in paragraph at lines 261--282
 
  []
 
+[9]
+Underfull \hbox (badness 1565) in paragraph at lines 287--288
+[]\OT1/cmr/m/n/12 NASA Dis-cov-ery Data Anal-y-sis Pro-gram \OT1/cmr/m/it/12 Me
+r-cury's es-cap-ing sodium tail\OT1/cmr/m/n/12 , PI,
+ []
 
-Underfull \hbox (badness 4479) in paragraph at lines 282--283
+
+Underfull \hbox (badness 4479) in paragraph at lines 292--293
 []\OT1/cmr/m/n/12 NASA Sci-ence Mis-sion Di-rec-torate \OT1/cmr/m/it/12 Char-ac
 -ter-iz-ing Mer-cury's Ex-o-sphere with
  []
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 298--319
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 308--329
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 []\OT1/cmr/m/n/12 Instrument Sci-ence PI: Rapid Imag-ing Plan-e-tary Spec-tro-g
 raph:
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 337--357
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 347--367
 
  []
 
-[11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 358.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 358.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 368.
+[12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 368.
  (CV_2022.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 358.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 358.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 368.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 368.
 Package rerunfilecheck Info: File `CV_2022.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 358.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 368.
  ) 
 Here is how much of TeX's memory you used:
  5233 strings out of 492895
  77603 string characters out of 3133470
- 176856 words of memory out of 3000000
+ 175856 words of memory out of 3000000
  9134 multiletter control sequences out of 15000+200000
  7681 words of font info for 27 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,5n,21p,634b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 28i,6n,21p,634b,382s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb>
-Output written on CV_2022.pdf (12 pages, 137062 bytes).
+Output written on CV_2022.pdf (12 pages, 138705 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 141 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
